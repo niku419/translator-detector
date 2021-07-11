@@ -7,12 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Main() {
   return (
     <>
-      <Container className="mt-5 top">
+      <Container className="mt-5 top mx-2">
         <div className="d-flex justify-content-center row">
           <h1 className="heading">React Translator</h1>
-          <div className="description m-3">A simple translator app made with react and google translation API which translates and detects any language into any other language...</div>
+          <div className="description">A simple translator app made with react and google translation API which translates and detects any language into any other language...</div>
         </div>
-        <div className="d-flex justify-content-between" >
+        <div className="d-flex justify-content-between mt-3" >
           <a className="btn primary" href="/translate" role="button">Translate Text</a>
           <a className="btn primary" href="/detect" role="button">Detect Lang</a>
         </div>

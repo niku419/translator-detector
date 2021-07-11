@@ -49,8 +49,8 @@ export default function Detect() {
       exit="exit"
     >
       <h1 className="heading">Detect Language</h1>
-      <Container className="d-flex flex-row mt-5">
-        <Container className="pt-2">
+      <Container className="d-flex row mt-5 mx-2">
+        <Container className="pt-2 col-md-6 mb-3">
           <InputGroup sz="lg" style={{height: "40vh"}}>
             <Form.Control 
               as="textarea" 
@@ -65,11 +65,11 @@ export default function Detect() {
             />
           </InputGroup>
           </Container>
-        <Container style={{display: "grid", placeItems: "center"}}>
+        <Container style={{display: "grid", placeItems: "center"}} className="col-md-6">
           <h1><Badge variant="primary">{detectedLang || "Detected Lang"}</Badge></h1>
         </Container>
       </Container>
-      <div className="d-flex justify-content-between m-5" >
+      <div className="d-flex justify-content-between mt-3 mx-1" >
         <a className="btn primary" href="/" role="button">Back to Home Page!!</a>
         <a className="btn primary" href="/translate" role="button">Translate text</a>
 			</div>

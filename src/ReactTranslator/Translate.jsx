@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react'
-import { Container, Dropdown, Form, InputGroup } from 'react-bootstrap'
+import { Container, Dropdown, Form, InputGroup} from 'react-bootstrap'
 import {languages} from './languages' 
 import { motion } from 'framer-motion'
 
@@ -68,7 +68,7 @@ export default function Translate() {
           ref={ref}
           className={className}
           aria-labelledby={labeledBy}
-          style={{overflowY: "scroll", maxBlockSize: "69vh"}}
+          style={{ overflowY: "scroll", maxBlockSize: "69vh"}}
         >
           <Form.Control
             autoFocus
@@ -108,6 +108,7 @@ export default function Translate() {
       return (
         <div
           ref={ref}
+          
           className={className}
           aria-labelledby={labeledBy}
           style={{overflowY: "scroll", maxBlockSize: "69vh"}}
@@ -136,9 +137,10 @@ export default function Translate() {
       initial="hidden"
       animate="visible"
       exit="exit"
+      className="ml-5"
     >
       <h1 className="heading">Translate any Text</h1>
-      <Container className="d-flex row ml-5 mt-5 justify-content-around">
+      <Container className="d-flex row mt-5 justify-content-around">
         <Container className="col-md-12 col-lg-6 mb-5">
           <Container >
             <Dropdown>
@@ -187,9 +189,9 @@ export default function Translate() {
           </Container>
         </Container>
       </Container>
-      <div className="d-flex justify-content-between m-3" >
-        <a className="btn primary m-2" href="/" role="button">Back to Home Page!!</a>
-        <a className="btn primary m-2" href="/detect" role="button">Detect Lang</a>
+      <div className="d-flex justify-content-between mx-1" >
+        <a className="btn primary" href="/" role="button">Back to Home Page!!</a>
+        <a className="btn primary" href="/detect" role="button">Detect Lang</a>
 			</div>
     </motion.div>
   )
