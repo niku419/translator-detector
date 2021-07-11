@@ -20,6 +20,9 @@ body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.5rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-stretch: ultra-condensed;
 }
 a{
   color: #66fcf1 !important;
