@@ -12,7 +12,7 @@ export default function Main() {
           <h1 className="heading">React Translator</h1>
           <div className="description m-3">A simple translator app made with react and google translation API which translates and detects any language into any other language...</div>
         </div>
-        <div className="d-flex justify-content-between m-5" >
+        <div className="d-flex justify-content-between" >
           <a className="btn primary" href="/translate" role="button">Translate Text</a>
           <a className="btn primary" href="/detect" role="button">Detect Lang</a>
         </div>

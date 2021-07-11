@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react'
-import { Container, Dropdown, Form, InputGroup} from 'react-bootstrap'
+import { Container, Dropdown, Form, InputGroup } from 'react-bootstrap'
 import {languages} from './languages' 
 import { motion } from 'framer-motion'
 
