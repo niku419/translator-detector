@@ -66,7 +66,6 @@ export default function Translate() {
       return (
         <div
           ref={ref}
-          style={style}
           className={className}
           aria-labelledby={labeledBy}
           style={{overflowY: "scroll", maxBlockSize: "69vh"}}
@@ -91,7 +90,7 @@ export default function Translate() {
   const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
     <div className="border rounded-top pl-4 pt-1">
       <a
-        href=""
+        href="/"
         ref={ref}
         onClick={(e) => {
           e.preventDefault();
@@ -109,7 +108,6 @@ export default function Translate() {
       return (
         <div
           ref={ref}
-          style={style}
           className={className}
           aria-labelledby={labeledBy}
           style={{overflowY: "scroll", maxBlockSize: "69vh"}}
