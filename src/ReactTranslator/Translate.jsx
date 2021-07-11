@@ -188,8 +188,8 @@ export default function Translate() {
         </Container>
       </Container>
       <div className="d-flex justify-content-between m-3" >
-        <a className="btn primary" href="/" role="button">Back to Home Page!!</a>
-        <a className="btn primary" href="/detect" role="button">Detect Lang</a>
+        <a className="btn primary m-2" href="/" role="button">Back to Home Page!!</a>
+        <a className="btn primary m-2" href="/detect" role="button">Detect Lang</a>
 			</div>
     </motion.div>
   )
