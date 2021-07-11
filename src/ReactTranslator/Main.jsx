@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Main() {
   return (
-    <>
+    <Container>
       <Container className="mt-5 top mx-2">
         <div className="d-flex justify-content-center row mb-5">
           <div className="mb-4"><h1 className="heading">React Translator</h1></div>
@@ -35,6 +35,6 @@ export default function Main() {
         </Form>*/}
       </Navbar>
     </Container>
-  </>
+  </Container>
   )
 }
