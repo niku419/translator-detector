@@ -8,8 +8,8 @@ export default function Main() {
   return (
     <>
       <Container className="mt-5 top mx-2">
-        <div className="d-flex justify-content-center row">
-          <h1 className="heading">React Translator</h1>
+        <div className="d-flex justify-content-center row mb-5">
+          <h1 className="heading mb-2">React Translator</h1>
           <div className="description">A simple translator app made with react and google translation API which translates and detects any language into any other language...</div>
         </div>
         <div className="d-flex justify-content-between mt-3" >
