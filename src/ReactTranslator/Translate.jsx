@@ -137,7 +137,7 @@ export default function Translate() {
       initial="hidden"
       animate="visible"
       exit="exit"
-      className="ml-5"
+      className="ml-2"
     >
       <h1 className="heading">Translate any Text</h1>
       <Container className="d-flex row mt-5 justify-content-around">
@@ -189,7 +189,7 @@ export default function Translate() {
           </Container>
         </Container>
       </Container>
-      <div className="d-flex justify-content-between mx-1" >
+      <div className="d-flex justify-content-between mt-3" >
         <a className="btn primary" href="/" role="button">Back to Home Page!!</a>
         <a className="btn primary" href="/detect" role="button">Detect Lang</a>
 			</div>
